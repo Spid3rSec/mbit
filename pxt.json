@@ -1,0 +1,30 @@
+{
+    "name": "new",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "microIoT": "github:dfrobot/pxt-dfrobot-microiot#v1.3.0",
+        "pxt-microbit-hardwario": "github:hardwario/pxt-microbit-hardwario#v1.0.1",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.1"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.4",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj",
+    "languageRestriction": "python-only"
+}
